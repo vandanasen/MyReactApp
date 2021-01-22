@@ -1,0 +1,27 @@
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  width: 100%;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  color: #ffffff;
+  display: inline;
+  font-size: 18px;
+  margin-right: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+}
+/* Add symbol (>) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: #ffffff;
+  margin-right: 24px;
+}
+

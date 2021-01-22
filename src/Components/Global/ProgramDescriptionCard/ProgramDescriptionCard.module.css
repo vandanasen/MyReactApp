@@ -1,0 +1,209 @@
+.programDescCardBoxOne {
+  background-color: #fdfdfd;
+  width: 100vw;
+  min-width: 1440px;
+  height: 536px;
+  display: flex;
+  justify-content: center;
+}
+.programDescCardLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 720px;
+  height: auto;
+  padding-right: 38px;
+}
+.programDescCardTitle {
+  margin-left: 160px;
+  display: flex;
+  width: 300px;
+  height: 36px;
+}
+.programDescCardTitle p {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+}
+
+.programDescCardSummary {
+  margin-left: 160px;
+  margin-bottom: 58px;
+  width: 547px;
+  height: auto;
+  left: 159px;
+  top: 1274px;
+  font-family: Montserrat;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+}
+.programDescCardSummary p:nth-child(1) {
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+.programDescCardSummary p:nth-child(2) {
+  margin-top: 0px;
+}
+.programDescCardButDiv {
+  margin-left: 160px;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 56px;
+  left: 162px;
+  top: 1469px;
+}
+.programDescCardButDiv button {
+  background-color: #5642cf;
+  border-radius: 4px;
+  padding: 18px 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.programDescCardRight {
+  position: relative;
+  width: 720px;
+  height: auto;
+}
+.programDescCardTopImgDiv {
+  position: absolute;
+  width: 400px;
+  height: 295.72px;
+  z-index: 2;
+  margin-left: 106px;
+  margin-top: 88px;
+}
+.programDescCardTopMidDiv {
+  position: absolute;
+  width: 160px;
+  height: 158.97px;
+  z-index: 2;
+  margin-left: 38px;
+  margin-top: 292px;
+  mix-blend-mode: multiply;
+}
+.programDescCardBotImgDiv {
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 280px;
+  z-index: 1;
+  margin-left: 127px;
+  margin-top: 136.37px;
+}
+
+/* Card 2 */
+
+.programDescCardBoxTwo {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-width: 1440px;
+  height: 536px;
+  left: -1px;
+  top: 1623px;
+  background: #f8f8f8;
+  border-radius: 4px;
+}
+.programDesCardBoxTwoLeft {
+  width: 720px;
+  height: auto;
+  position: relative;
+}
+.programDescCardTwoTopImgDiv {
+  position: absolute;
+  margin-top: 66px;
+  margin-left: 187px;
+  z-index: 2;
+}
+.programDescCardTwoMidImgDiv {
+  position: absolute;
+  margin-top: 256px;
+  margin-left: 479px;
+  z-index: 3;
+  mix-blend-mode: multiply;
+}
+.programDescCardTwoBotImgDiv {
+  position: absolute;
+  margin-top: 95px;
+  margin-left: 160px;
+  z-index: 1;
+}
+.programDesCardBoxTwoRight {
+  width: 720px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.programDescCardTwoTitle {
+  width: 541px;
+  height: 35px;
+  margin-top: 60px;
+}
+.programDescCardTwoTitle p {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+}
+.programDescCardSummaryTwo {
+  width: 547px;
+  height: auto;
+  left: 159px;
+  top: 1274px;
+  font-family: Montserrat;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+}
+.programDescCardSummaryTwo p:nth-child(1) {
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+.programDescCardSummaryTwo p:nth-child(2) {
+  margin-top: 0px;
+}
+.programDescCardButDivTwo {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 56px;
+  left: 162px;
+  top: 1469px;
+  margin-top: 40px;
+}
+.programDescCardButDivTwo button {
+  background-color: #5642cf;
+  border-radius: 4px;
+  padding: 18px 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffffff;
+}

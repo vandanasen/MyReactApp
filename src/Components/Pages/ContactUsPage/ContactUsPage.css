@@ -1,0 +1,201 @@
+.ContactUsPageContainer {
+   
+    /* max-width: auto; */
+    width: 100vw;
+    height: auto;
+    margin: 0 auto; 
+    /* border: 1px solid #908F95; */
+}
+
+.contactPageLRContainer {
+    display: flex;
+    /* justify-content: center;  */
+    justify-content: space-between; 
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.contactPageLeft {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 50%;
+    
+    /* margin-bottom: 174px; */
+    /* height: 810px; */
+    /* width: 670px; */
+    /* border: 2px solid red; */
+}
+
+.contactPageRight {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 11.5%;
+    width: 50%;
+    /* margin-bottom: 174px; */
+    /* height: 810px; */
+   
+    /* border: 2px solid blue; */
+}
+
+
+
+
+
+.bannerContainer {
+    width: 1622.86px;
+    height: 560px;
+}
+.name {
+    width: 321px;
+    height: 52px;
+    background: #FEFCFC;
+    /* border: 1px solid #908F95; */
+    border-radius: 8px;
+}
+
+.email {
+    width: 321px;
+    height: 52px;
+    margin-left: 24px;
+    background: #FEFCFC;
+    /* border: 1px solid #908F95; */
+    border-radius: 8px;
+}
+
+.company {
+    width: 666px;
+    height: 52px;
+    margin-bottom: 96px;
+    background: #FEFCFC;
+    /* border: 1px solid #908F95; */
+    border-radius: 8px;
+}
+
+.message {
+    width: 666px;
+    height: 472px;
+    background: #FEFCFC;
+    /* border: 1px solid #908F95; */
+    border-radius: 8px;
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    width: 500px; 
+    margin: ; 
+    /* border: 1px solid black;  */
+    height: auto; 
+  }
+  
+  .outer-div{
+    display: flex; 
+    margin-bottom: 68px; 
+  }
+
+  .submitButton {
+      width: 158px;
+      height: 56px;
+      background-color: #5642CF;
+      border-radius: 4px;
+      margin-top: 30px;
+      color: white;
+      border: none;
+  }
+
+  .contactPageText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .addressPhoneContainer {
+      display: flex;
+      justify-content: space-around;
+      margin-right: 45px;
+    
+      /* border: 2px solid green; */
+    
+  }
+  .addressContainer{
+    /* text-align: left; */
+      width: 194px;
+      
+  }
+
+  .phoneNumberContainer{
+    /* text-align: right; */
+    width: 194px;
+  }
+
+
+  .contactPageRightIconContainer {
+      display: flex;
+      justify-content: space-between;
+      width: 390px;
+      margin: 0 auto;
+      padding-top: 10px;
+
+  }
+
+  .marginTop68 {
+      margin-top: 68px;
+  }
+
+  .contactPageLogo {
+      width: 40px;
+      height: 40px;
+  }
+
+  .marginLeft {
+      margin-left: 25px;
+  }
+  
+/* page alignment anita */
+  .nebullaMap{
+    width: 100%;
+    height: 500px;
+    /* height: 20%; */
+  }
+
+  .contactPageRightBottom{
+      background-color: #5642CF;
+      width: 99%;
+      height: 298px;
+      padding: 25px;
+      margin: 0 5px 0 5px;
+      color: #fff;
+      font-size: 18px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      text-align: center;
+      margin: -4px 0 0 4px;
+
+  }
+
+
+
+/* ====================================================
+===============Media Queries===========================
+==================================================== */
+
+@media(max-width:800px){
+    .contactPageLRContainer {
+    flex: none;
+     display: block;
+     width: 100%;
+     margin-top: 15%;
+    }
+    .contactPageLeft{
+        width: 90%;
+    }
+
+     .contactPageRight{
+            width: 90%;
+            margin-left: 10%;
+        }
+}

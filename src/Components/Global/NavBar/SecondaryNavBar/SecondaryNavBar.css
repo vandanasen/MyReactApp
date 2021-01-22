@@ -1,0 +1,45 @@
+/*   Create by: Anita nasa
+     Date: 09/28/20 */
+
+
+.list-container{
+    margin: 20px;
+    padding: 10px 40px 0 60px;
+    font-family: Montserrat;
+    font-size: 16px;
+    ;
+}
+
+.list-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+}
+
+.list-wrapper li{
+    list-style: none;
+}
+
+.list-wrapper a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.regBtn{
+    background-color: #6701f5;
+    border: none;
+    padding: 13px 40px 13px 40px;
+    letter-spacing: 1.5px;
+}
+.regBtn a{
+    color: #fff;
+    font-weight: 650;
+    font-size: 17px;
+
+}
+
+.active-line{
+    border-bottom: 5px solid #6701f5;
+    
+}

@@ -1,0 +1,30 @@
+.cardStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 344px;
+    height: 369px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 18px rgba(191, 191, 191, 0.2);
+    border-radius: 4px;
+
+   
+}
+
+.callToActionButton {
+    margin-top: 52.5px;
+    align-self: center;
+    width: 164px;
+    height: 56px;
+    background-color: #FFF;
+    border: 2px solid #3A3748;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #3A3748;
+}

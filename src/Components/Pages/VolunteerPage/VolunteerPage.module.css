@@ -1,0 +1,363 @@
+/* Ambassador */
+.volunteerPageContainer {
+  display: flex;
+  flex-direction: column;
+  background: #fdfdfd;
+}
+.volunteerPageAmbassBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 368px;
+}
+.volunteerPageAmbassBoxTitle {
+  display: flex;
+  flex-direction: column;
+  width: 658px;
+  height: 42px;
+  margin-top: 53px;
+  margin-bottom: 80px;
+}
+.volunteerPageAmbassBoxTitle p {
+  margin: 0px;
+  margin-bottom: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.volunteerPageAmbassBoxSummary {
+  width: 1121px;
+  height: 136px;
+  margin-bottom: 57px;
+}
+.volunteerPageAmbassBoxSummary p {
+  margin: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+}
+/* What will you gain Section */
+.volunteerPageGainBox {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 627px;
+  background-color: #f7f7f7;
+}
+.volunteerPageGainInnerCard {
+  width: 1126px;
+  height: 455px;
+  margin-top: 102px;
+  background: #fdfdfd;
+  box-shadow: 0px 8px 18px rgba(191, 191, 191, 0.2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+.volunteerPageGainCardTitle {
+  width: 358.73px;
+  margin-left: 175.81px;
+  margin-top: 45px;
+}
+.volunteerPageGainCardTitle p {
+  margin: 0px;
+  margin-bottom: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.volunteerPageGainCardUlDiv {
+  width: 940px;
+  height: 166px;
+  display: flex;
+  margin-left: 175.81px;
+  margin-top: 52px;
+}
+
+.volunteerPageUl ul {
+  list-style: none;
+  margin: 0;
+  margin-right: 53.6px;
+  padding: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.volunteerPageUl ul li {
+  background: url("../../../Assets/greenBullet.svg") no-repeat top left;
+  background-position: 0 14px;
+  padding-left: 17px;
+  padding-bottom: 22px;
+}
+.volunteerPageGreenEllipseDiv {
+  position: absolute;
+  margin-top: 63px;
+  margin-right: 1150px;
+  z-index: 1;
+}
+.volunteerPageOrangeEllipseDiv {
+  position: absolute;
+  z-index: 1;
+  margin-top: 228px;
+  margin-left: 1170px;
+}
+.volunteerPageBlueDotSphere {
+  position: absolute;
+  margin-right: 1059px;
+  margin-top: 47px;
+  z-index: 2;
+}
+.volunteerPageRedDotSphere {
+  position: absolute;
+  margin-top: 410px;
+  margin-left: 1092px;
+  z-index: 2;
+}
+/* Requirements Section */
+.volunteerPageRequiredBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 733px;
+  width: 100vw;
+  background: #fdfdfd;
+}
+.volunteerPageRequiredBox p:nth-child(1) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 33px;
+}
+.volunteerPageRequiredTitle {
+  width: 430px;
+  margin-right: 700px;
+  margin-top: 68px;
+}
+.volunteerPageRequiredBox p:nth-child(2) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+  margin: 0;
+  margin-top: 48.8px;
+  margin-right: 740px;
+}
+.volunteerPageRequiredUlDiv {
+  margin-right: -25px;
+  margin-top: 50px;
+  width: 1146px;
+  height: auto;
+}
+.volunteerPageRequiredUlDiv ul {
+  list-style: none;
+  margin: 0;
+  margin-right: 53.6px;
+  padding: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.volunteerPageRequiredUlDiv ul li {
+  background: url("../../../Assets/greenCheckSymbol.svg") no-repeat top left;
+  background-position: 0 12px;
+  padding-left: 25px;
+  padding-bottom: 22px;
+}
+/* Meet OUr Cap Alumni Section */
+
+.volunteerPageCapAlumniBox {
+  width: 100vw;
+  height: 2432px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.volunteerPageDGreenEllipse {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 1254px;
+}
+.volunteerPageSmOrangeEllipse {
+  position: absolute;
+  margin-right: 1320px;
+  margin-top: 180px;
+}
+.volunteerPageSmRedDotEllipse {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 1190px;
+  mix-blend-mode: multiply;
+}
+.volunteerPurpleEllipse {
+  position: absolute;
+  mix-blend-mode: multiply;
+  margin-right: 1320px;
+  margin-top: 155px;
+}
+.volunteerBrightRdEllipse {
+  position: absolute;
+  margin-top: 1300px;
+  margin-left: 1254px;
+}
+.volunteerRightPurpleSphere {
+  position: absolute;
+  mix-blend-mode: multiply;
+  margin-left: 1243px;
+  margin-top:1245px;
+}
+.volunteerPageCapAlumniTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 407px;
+  margin-top: 109px;
+  margin-bottom: 75px;
+  margin-right: 740px;
+}
+.volunteerPageCapAlumniTitle p:nth-child(1) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+.volunteerPageCapCarley {
+  display: flex;
+  height: 480px;
+  margin-right: 20px;
+}
+.volunteerPageCapLeft {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 311px;
+  margin-right: 149px;
+}
+.volunteerPageCapLeft p:nth-child(2) {
+  margin: 0;
+  margin-top: 36px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+}
+.volunteerPageCapLeft p:nth-child(3) {
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+}
+.volunteerPageCapRight {
+  width: 659px;
+  height: auto;
+}
+.volunteerPageCapRight p:nth-child(1) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #3a3748;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.volunteerPageQATitle {
+  width: 377px;
+  margin-top: 35px;
+  margin-right: 770px;
+}
+.volunteerPageQATitle p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-left: 0;
+}
+.volunteerPageQATopDiv {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+}
+.volunteerPageQADiv {
+  width: 1127px;
+  height: auto;
+}
+.volunteerPageQAQuestion {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.volunteerPageQAAnswer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 0;
+}
+.volunteerPageFAQCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 84px;
+  margin-bottom: 182px;
+}

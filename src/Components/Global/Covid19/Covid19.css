@@ -1,0 +1,29 @@
+.Covid19Banner {
+   
+    width: 100vw;
+    height: 88px;
+    background: #FDDCA0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    color: #3a3748;
+
+    position: relative;
+    top: 89px;
+    margin-bottom: 88px;
+
+}
+.Covid19Message {
+    
+    padding: 0 10% 0 10%;
+    
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+
+}

@@ -1,0 +1,55 @@
+.ProgramMarginLeft{
+    margin-left: 21px;
+
+
+}
+
+.ProgramSidebarBolded{
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.ProgramSidebarRow{
+    display: flex;
+    padding-left: 21px;
+    align-content: flex-start;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.ProgramSidebarIcon{
+    height: 32px;
+    width: 32px;
+    background-color:  #FDFDFD;
+    border-radius: 50%;
+    align-self: flex-start; 
+    margin-top: 8px;
+}
+
+.ProgramSidebarColumn{
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+    justify-content: flex-start;
+}
+.ProgramSidebarColumn > p, .ProgramSidebarColumn > span {
+    text-align: left;
+    justify-content: flex-start;
+    margin-left: 25px;
+    
+}
+
+
+.ProgramSidebarCard{
+    width: 321px;
+    height: 505px;
+    background-color: #F7F7F7;
+    border-top:8px solid #3A3748;   
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 10px;
+
+}

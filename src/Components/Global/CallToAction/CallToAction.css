@@ -1,0 +1,127 @@
+   .callToActionContainer{
+      position: relative;
+      width: 100%; 
+      max-width: 1440px; 
+      height: 540px; 
+      background-color: #f8f8f8; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; 
+   }
+   .callToActionTop{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 78px;
+   }
+   .callToActionTop p{
+      margin: 0;
+      font-weight: bold;
+   }
+   .callToActionTop p:nth-child(2){
+      margin-bottom: 27px;
+   }
+
+   .ButtonContainer{
+      /* border: 1px solid red; */
+      margin-bottom: 50px;
+
+   }
+   .ActionWords{
+      font-size: 24px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #3a3748; 
+      text-align: center;
+   }
+   .CallAbutton{
+      background-color: #5642cf;
+      justify-content: center;
+      height: 56px;
+      width: 188px;
+      border: none;
+      border-radius: 4px;
+      align-self: center;
+      margin: 0 24px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0.04em;
+      color: rgba(255, 255, 255, 0.8);
+   }
+   
+   .greenCircle{
+      /* position: absolute; */
+      width: 253px;
+      height: 253px;
+      border-radius: 50%;
+      left: 1326.26px;
+      top: 863px;
+      background: #00B500;
+   }
+   .yellowCircleDiv{
+      position: absolute; 
+      top: 120px;
+      left: -0;
+   }
+   .purpleCircleDiv{
+      position: absolute;
+      left: 0;
+      top: 120px;
+   }
+   .greenCircleDiv{
+      position: absolute;
+      right: 0;
+      top: 214px;
+   }
+   .redCircleDiv{
+      position: absolute;
+      right: 10px;
+      top: 336px;
+   }
+   .redVector{
+      position: absolute;
+      left: 94.74%;
+      right: 4.75%;
+      top: 42.27%;
+      bottom: 57.41%;
+      width: 174.96px;
+      height: 174.96px;
+      border-radius: 50%;
+      background: #FF2727;
+      mix-blend-mode: multiply;
+      /* transform: matrix(-0.86, -0.48, 0.52, -0.87, 0, 0); */
+   }
+   .blueVector{
+      position: absolute;
+      width: 120.96px;
+      min-height: 120.96px;
+      border-radius: 50%;
+      left: 5.03%;
+      right: 94.62%;
+      top: 15.62%;
+      bottom: 68.16%;
+      background: #483D8B;
+      mix-blend-mode: multiply;
+      transform: matrix(-0.86, -0.48, 0.52, -0.87, 0, 0);
+   }
+   .blueBarr{
+      width: 104px;
+   }
+   .callToActionNotes{
+      border: 1px solid red;
+   }
+   .callToActionContainer1{
+      position: relative;
+      width: 100%; 
+      max-width: 1440px; 
+      height: 540px; 
+      background-color: #f8f8f8; 
+      display: flex;
+      flex-direction: column;  
+      justify-content: flex-start; 
+   }
+  

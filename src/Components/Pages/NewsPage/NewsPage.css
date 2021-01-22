@@ -1,0 +1,107 @@
+.newsHighlight {
+    margin-top: 80px;
+}
+
+.newsHighlight p:nth-child(1) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #3A3748;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.newsHighlight img:nth-child(2) {
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+.newsSnippets1 {
+    display: flex;
+}
+
+.newsSnippets2 {
+    display: flex;
+}
+
+.latestNews p:nth-child(1) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #3A3748;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+.latestNews img:nth-child(2) {
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+
+.newsButton button {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 45%;
+    margin-bottom: 100px;
+    padding: 18px 0px 0px 32px;
+    width: 177px;
+    height: 56px;
+    left: 1105px;
+    top: 3200px;
+    background: #5642cf;
+    border-radius: 4px;
+}
+
+.newsButton button div {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.lightBlueEllipse {
+    position: absolute;
+    margin-top: -50px;
+    z-index: 1;
+}
+.orangeEllipse {
+    position: absolute;
+    z-index: 1;
+    margin-top: 175px;
+    margin-left: 1275px;
+}
+.greenDotSphere {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+    z-index: 2;
+}
+.redDotSphere {
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 1200px;
+    z-index: 2;
+}

@@ -1,0 +1,26 @@
+.CreatingSteamPage-container{
+    height:600px;
+    width:1540px;
+    margin-top:110px;
+    margin-left:150px;
+}
+
+.CreatingSteamPageOverviewsec{
+    font-family: Montserrat;
+    font-style: normal;
+    float:left;
+    width:50%;
+    font-size: 18px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+}
+    
+
+.ProgramSidebar{
+    float:right;
+    width:50%;
+    margin-bottom: 60px;
+    margin-top: -60px;
+    margin-right: -90px;
+    
+}

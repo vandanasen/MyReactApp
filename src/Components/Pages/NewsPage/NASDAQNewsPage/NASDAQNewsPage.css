@@ -1,0 +1,54 @@
+.pagecontainer{
+    height:800px;
+    width:1540px;
+}
+.page-title{
+    margin-left: 600px;
+    margin-top: 80px;
+}
+.nasdaqsec{
+    margin-left:227px;
+    width: 1134px;
+    height: 180px;
+
+margin-top: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 36px;
+
+
+letter-spacing: 0.05em;
+
+}
+.NASDAQImg1{
+    margin-right: 30px;
+    margin-left: 255px;
+    margin-top:100px;
+}
+.NASDAQImg3{
+    margin-right: -50px;
+    margin-left: 270px;
+    margin-top:100px;
+}
+.primarybutton{
+display: flex;
+flex-direction: row;
+padding: 18px 40px;
+
+position: static;
+border-color: #5642CF;
+border-radius: 4px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: flex-start;
+margin-left:600px;
+margin-top: -70px;
+margin-bottom:80px;
+}
+a:-webkit-any-link {
+    text-decoration-line: none;}

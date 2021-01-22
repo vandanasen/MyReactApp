@@ -1,0 +1,80 @@
+.systematicBox {
+  background-color: rgb(253, 253, 253);
+  width: 1460px;
+  height: 782px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.systemTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 125px;
+}
+.systemTopText {
+  color: rgb(51, 48, 62);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  margin-bottom: 24px;
+}
+.systemCardContainer {
+  display: flex;
+  align-items: center;
+  height: 369px;
+  width: 1128px;
+  justify-content: space-evenly;
+}
+.systematicCard {
+  width: 344px;
+  height: 369px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 18px rgba(191, 191, 191, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.systemCardButton {
+  padding: 10px;
+  display: flex;
+  border: 2px solid #3a3748;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  background-color: #ffffff;
+}
+.systemCardButton2 {
+  padding: 10px;
+  display: flex;
+  border: 2px solid #3a3748;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+  background-color: #ffffff;
+}
+.systemText {
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;  
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.systemCardImg {
+  margin-top: 88.57px;
+}

@@ -1,0 +1,69 @@
+/* * {
+  border: 2px solid blue;
+} */
+body {
+  background-color: #fdfdfd;
+}
+.blogCardBox {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 551px;
+  height: 486px;
+}
+.blogCardBottom {
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-right: 50px;
+}
+.blogCardImgDiv img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 551px;
+  height: 256px;
+  object-fit: cover;
+}
+
+.blogCardDate {
+  margin-left: 12px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4e4e4e;
+}
+.blogCardTitle {
+  margin-left: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.blogCardRead {
+  margin-left: 8px;
+  margin-top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5642cf;
+  border: none;
+  align-self: flex-start;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.blogCardRead p {
+  margin-right: 62px;
+}

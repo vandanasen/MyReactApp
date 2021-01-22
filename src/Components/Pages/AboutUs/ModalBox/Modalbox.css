@@ -1,0 +1,72 @@
+
+.modal-wrapper{
+    display: flex;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    background-color: #3A3748;
+    padding: 20px;
+    box-shadow: 2px 2px 2px #666;
+    border-radius: 7px;
+    position: relative;
+    color: #fff;
+    
+}
+
+img{
+    width: 250px;
+  
+ 
+}
+.modal-img{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    width: 220px !important;
+    height: auto;
+   
+}
+
+
+
+.modal-disc{
+
+    flex: 2;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.modal-disc span{
+    position: absolute;
+    top: 0;
+    right: 3%;
+    font-size: 3.5rem;
+    color: #ccc;
+    opacity: .7;
+    cursor: pointer;
+    
+}
+
+
+/* Media query */
+
+
+@media only screen and (max-width: 1025px){
+ 
+    .modal-wrapper{
+        display: block;
+    }
+
+    .modal-wrapper .modal-img{
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .modal-wrapper h4,h3{
+        text-align: center;
+    }
+}
+

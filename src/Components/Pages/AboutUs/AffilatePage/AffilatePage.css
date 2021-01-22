@@ -1,0 +1,42 @@
+.checkusout{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #3A3748;
+}
+
+.checkoutbar{
+    border: 12px solid #5642CF;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 24px;
+    width: 50px;
+}
+
+.AffilateContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.AffilateContainer > p {
+    margin: 40px;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+}
+
+.AffilateContainer>img,.AffilateContainer>div>img{
+    object-fit: contain;
+}
+
+.AffilateContainer>div{
+    display: flex;
+    justify-content: center;
+}

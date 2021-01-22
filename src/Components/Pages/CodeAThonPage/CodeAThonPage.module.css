@@ -1,0 +1,110 @@
+.codeAThonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.codeAThonButtonDiv {
+  margin-top: 38px;
+  margin-bottom: 133px;
+  margin-right: 167px;
+  align-self: flex-end;
+}
+.codeAThonButtonDiv button {
+  width: 238px;
+  height: 56px;
+  padding: 18px 40px;
+  background: #5642cf;
+  border-radius: 4px;
+}
+.codeAThonButtonDiv button div {
+  width: 170px;
+  height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.codeAThonProgDetailsDiv {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 1125px;
+}
+
+.codeAThonProgDetailsDiv p:nth-child(1) {
+  margin: 0 0 24px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.codeAThonProgDetailsDiv p:nth-child(2) {
+  margin: 0 0 24px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.codeAThonProgDetailsDiv p:nth-child(3) {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+}
+.codeAThonProgDetailsDiv p:nth-child(4) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+/* Gallery */
+.codeAThonGalleryBox {
+  margin-top: 115px;
+  width: 1125px;
+}
+
+.codeAThonGalleryTitle p {
+  margin: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.codeAThonImageDiv {
+  max-width: 1044px;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-left: 50px;
+}
+.codeAThonImageDiv img:nth-child(1) {
+  margin-right: 54px;
+}
+.codeAThonImageDiv img:nth-child(2) {
+  width: 76vw;
+}
+.codeAThonImageDiv img:nth-child(3) {
+  margin-left: 54px;
+}
+.codeAThonFAQ {
+  display: flex;
+  justify-content: center;
+  margin-top: 154px;
+  margin-bottom: 90px;
+}

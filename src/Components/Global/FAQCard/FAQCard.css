@@ -1,0 +1,35 @@
+.FAQCard{
+   width: 895px;
+   background-color: #FFFFFF;
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 8px;
+
+}
+
+.FAQHeader{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    padding-left: 38px;
+
+}
+.FAQQuestion{
+    font-weight: bold;
+    border-top: 1px solid #B6B6B6;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 46px;
+    color: #4f4f4f;
+    
+}
+.FAQAnswer{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 2px;
+    
+}

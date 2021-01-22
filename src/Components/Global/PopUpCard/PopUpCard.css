@@ -1,0 +1,48 @@
+.popUpContainer {
+    display: flex;
+   
+    background-color: #3a3748;
+    width: 1126px;
+    height: 834px;
+    border-radius: 8px;
+}
+.popUpContent {
+    
+    width: 583px;
+    height: 672px;
+    margin-left: 27px;
+    margin-top: 48.69px;
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+     color:#ffffff;
+     
+}
+.popUpImagePhoto {
+ 
+    width: 332px;
+    height: 332px;
+    margin-left: 43px;
+    margin-top: 211px;
+   
+}
+
+   
+
+.popUpName {
+    width: 231px;
+    height: 35px;
+    margin: auto;
+    
+    
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+     color: #ffffff
+}

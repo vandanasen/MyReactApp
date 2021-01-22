@@ -1,0 +1,225 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* min-width: 1440px; */
+  height: auto;
+  margin: 0 auto;
+  color: rgb(241, 239, 248);
+  background-color: #3A3748;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ====================================================
+===============Footer Top Container ==================
+==================================================== */
+
+.footer-top-container {
+  display: flex;
+  width: 80%;
+  margin: 64px auto 0;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FBFBFB;
+  border-bottom: 1px dashed #F7F7F7;
+
+}
+
+.subscription-container h2 {
+  line-height: 36px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+.subscription-container p {
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  color: black;
+  width: 428px;
+  height: 48px;
+  border: none;
+  border-radius: 4px 0px 0px 4px;
+}
+
+input.search,
+textarea {
+  background-color: white;
+}
+
+.enter {
+  color: rgb(17, 12, 32);
+  background-color: #00CED1;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  width: 149px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+/* ====================================================
+===============Footer Mid Container ==================
+==================================================== */
+
+.footer-mid-container {
+  color: rgb(241, 239, 248);
+  margin: 75px auto;
+  /* position: relative; */
+  width: 80%;
+  /* height: auto; */
+  /* display: flex;
+  justify-content: space-between;
+  vertical-align: baseline; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.6fr;
+
+}
+
+.col {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.col h3 {
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #FFFFFF;
+}
+
+.list-unstyled {
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding-left: 0pt;
+}
+
+.list-unstyled li {
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 16px;
+}
+
+.anchorLooks {
+  color: rgb(241, 239, 248);
+  text-decoration: none;
+}
+
+
+/* ====================================================
+===============Footer Bottom Container ==================
+==================================================== */
+
+.footer-bottom-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  color: rgb(241, 239, 248);
+  margin: 0 auto 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #FBFBFB;
+}
+
+.styles {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.footer-nebula-logo {
+  margin: 0;
+  padding: 0;
+  width: 77px;
+  height: auto;
+}
+
+.bottom-container-text {
+  height: 72px;
+  width: 321px;
+}
+
+
+
+
+
+div.styles img {
+  margin: 0 15px 0 0;
+}
+
+.headerStyles {
+  color: rgb(241, 239, 248);
+}
+
+
+.footerSocialIcons{
+  width: 50px;
+}
+
+
+/* ====================================================
+===============Media Queries===========================
+==================================================== */
+
+
+@media(max-width:1140px) {
+  .footer-bottom-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .styles {
+    justify-content: space-around;
+    width: 70vw;
+    margin: 0 auto;
+    min-width: 500px;
+  }
+}
+
+@media(max-width:943px) {
+  .footer-top-container {
+    flex-direction: column;
+  }
+
+  .subscription-container {
+    width: 577px;
+  }
+}
+
+
+@media(max-width:700px) {
+
+  .subscribe,
+  .subscription-container {
+    width: 70vw;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+}

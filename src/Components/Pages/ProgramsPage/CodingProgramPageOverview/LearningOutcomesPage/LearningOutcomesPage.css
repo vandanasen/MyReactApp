@@ -1,0 +1,74 @@
+.CodingProgramPage-container{
+    height:600px;
+    width:1540px;
+    margin-top:110px;
+    margin-left:150px;
+}
+.LearningOutcomesPageOverviewsec{
+    float:left;
+    width:50%;
+
+    border-collapse: separate;
+    border-spacing: 15px 20px;
+
+    
+    font-size: 22px;
+line-height: 39px;
+letter-spacing: 0.05em;
+}
+    
+
+.ProgramSidebar{
+    float:right;
+    width:50%;
+    margin-bottom: 60px;
+    margin-top: -60px;
+    margin-right: -90px;
+    
+}
+
+.LearningOutcomesPageTitle{
+
+    width: 405px;
+    height: 47px;
+    margin: 20px;
+
+    /* H2-content-headers */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.LearningOutcomesPageHeaderBox{
+    width: 318px;
+    height: 200px;
+    margin: 10px;
+    background: #F6F6F6;
+    border-radius: 10px;
+    padding: 30px;
+    
+    }
+
+.LearningOutcomesPageHeader{
+
+    //width: 300px;
+    //height: 72px;
+    padding: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+
+    /* or 164% */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
