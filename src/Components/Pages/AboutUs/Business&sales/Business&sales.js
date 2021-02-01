@@ -7,7 +7,7 @@ import Lisa from '../../../../Assets/Lisa.png';
 import Henry from '../../../../Assets/Henry.png';
 import Ariel from '../../../../Assets/Ariel.png';
 import Tuqa from '../../../../Assets/Tuqa.png';
-import Kerri from '../../../../Assets/kerry-img.png';
+
 import Mark from '../../../../Assets/mark.png';
 import Vincent from '../../../../Assets/Vincent.png';
 import Modalbox from '../ModalBox/Modalbox';
@@ -155,7 +155,7 @@ class BusinessAndSales extends Component{
                         <div key={member.id} className="col-lg-3 col-md-4 col-sm-6 col-xm-12">
                             <div className="img-box">
 
-                           <img src={member.imgSrc} className="memberImg" 
+                           <img src={member.imgSrc}  alt="Person" className="memberImg" 
                            onClick={(e) => {
                                this.setState({isModalshow: true,  memberIndex: index})
                                console.log('Clicked', index )

@@ -33,7 +33,7 @@ import './Modalbox.css'
                 >
                     
                     <div className="modal-img">
-                        <img src={this.props.imgSrc} alt="image"/>
+                        <img src={this.props.imgSrc}  alt="Person"/>
                         <p></p>
                     </div>
                     <div className="modal-disc">

@@ -4,9 +4,7 @@ import programsImage from "../../../Assets/bannerImages/img-coding-programs.png"
 import BreadCrumbNav from "../BreadCrumbNav/BreadCrumbNav";
 
 class Banner extends Component {
-  constructor(props) {
-    super(props);
-  }
+  
 
   render() {
     return (
