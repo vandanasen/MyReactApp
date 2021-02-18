@@ -45,7 +45,7 @@ let blogCardSettings3 = {
     cardDate: "Novemeber 2, 2019",
     cardTitle: "Creating Systems Change",
 }
-
+//added this line of comment
 class HomePage extends React.Component {
 	constructor () {
 		super();
